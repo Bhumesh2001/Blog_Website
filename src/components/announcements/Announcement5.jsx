@@ -13,17 +13,17 @@ const Announcement5 = () => {
                   Wednesday, March 20, 2024
                 </li>
                 <li className="text-xs border-r rtl:border-l rtl:border-r-0 px-4 hidden sm:block">
-                  <Link href="/right-sidebar" className="hover:text-[#ff3750]">
+                  <Link to="/right-sidebar" className="hover:text-[#ff3750]">
                     News
                   </Link>
                 </li>
                 <li className="text-xs border-r rtl:border-l rtl:border-r-0 px-4 hidden sm:block">
-                  <Link href="/left-sidebar" className="hover:text-[#ff3750]">
+                  <Link to="/left-sidebar" className="hover:text-[#ff3750]">
                     Business
                   </Link>
                 </li>
                 <li className="text-xs px-4 hidden sm:block">
-                  <Link href="/no-sidebar" className="hover:text-[#ff3750]">
+                  <Link to="/no-sidebar" className="hover:text-[#ff3750]">
                     Technology
                   </Link>
                 </li>
@@ -34,7 +34,7 @@ const Announcement5 = () => {
                 {/* social */}
                 <li className="text-md">
                   <Link
-                    href="#"
+                    to="#"
                     target="_blank"
                     className="hover:text-[#ff3750]"
                   >
@@ -43,7 +43,7 @@ const Announcement5 = () => {
                 </li>
                 <li className="text-md">
                   <Link
-                    href="#"
+                    to="#"
                     target="_blank"
                     className="hover:text-[#ff3750]"
                   >
@@ -52,7 +52,7 @@ const Announcement5 = () => {
                 </li>
                 <li className="text-md">
                   <Link
-                    href="#"
+                    to="#"
                     target="_blank"
                     className="hover:text-[#ff3750]"
                   >
@@ -61,7 +61,7 @@ const Announcement5 = () => {
                 </li>
                 <li className="text-md">
                   <Link
-                    href="#"
+                    to="#"
                     target="_blank"
                     className="hover:text-[#ff3750]"
                   >
@@ -70,7 +70,7 @@ const Announcement5 = () => {
                 </li>
                 <li className="text-md">
                   <Link
-                    href="#"
+                    to="#"
                     target="_blank"
                     className="hover:text-[#ff3750]"
                   >

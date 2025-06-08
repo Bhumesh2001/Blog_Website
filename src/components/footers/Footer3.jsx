@@ -44,6 +44,7 @@ const Footer3 = () => {
                         </div>
                       </div>
                     </li>
+                    
                     <li className="py-1 sm:py-2">
                       <div className="flex items-center">
                         <div className="flex-shrink-0">

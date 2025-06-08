@@ -70,7 +70,7 @@ const Footer5 = () => {
                 </div>
                 <div className="mb-3">
                   <Link
-                    href="gallery.html"
+                    to="#"
                     className="border border-slate-700 rounded-lg hover:text-[#ff3750] text-xs px-3 py-2"
                   >
                     Gallery
@@ -78,7 +78,7 @@ const Footer5 = () => {
                 </div>
                 <div className="mb-3">
                   <Link
-                    href="masonry-gallery.html"
+                    to="#"
                     className="border border-slate-700 rounded-lg hover:text-[#ff3750] text-xs px-3 py-2"
                   >
                     gautro
@@ -158,7 +158,7 @@ const Footer5 = () => {
               <ul>
                 <li className="py-1">
                   <Link
-                    href="post-format-audio.html"
+                    to="/post-format-audio"
                     className="hover:text-[#ff3750] text-sm"
                   >
                     Post Format Audio
@@ -166,7 +166,7 @@ const Footer5 = () => {
                 </li>
                 <li className="py-1">
                   <Link
-                    href="post-format-gallery.html"
+                    to="/post-format-gallery"
                     className="hover:text-[#ff3750] text-sm"
                   >
                     Post Format Gallery
@@ -174,7 +174,7 @@ const Footer5 = () => {
                 </li>
                 <li className="py-1">
                   <Link
-                    href="post-format-standard.html"
+                    to="/post-format-standard"
                     className="hover:text-[#ff3750] text-sm"
                   >
                     Post Format Standard
@@ -182,7 +182,7 @@ const Footer5 = () => {
                 </li>
                 <li className="py-1">
                   <Link
-                    href="post-format-text.html"
+                    to="/post-format-text"
                     className="hover:text-[#ff3750] text-sm"
                   >
                     Post Format Text
@@ -190,7 +190,7 @@ const Footer5 = () => {
                 </li>
                 <li className="py-1">
                   <Link
-                    href="post-format-video.html"
+                    to="/post-format-videos"
                     className="hover:text-[#ff3750] text-sm"
                   >
                     Post Format Video
@@ -206,7 +206,7 @@ const Footer5 = () => {
               <ul>
                 <li className="py-1">
                   <Link
-                    href="about.html"
+                    to="/about"
                     className="hover:text-[#ff3750] text-sm"
                   >
                     About Us Page
@@ -214,7 +214,7 @@ const Footer5 = () => {
                 </li>
                 <li className="py-1">
                   <Link
-                    href="404.html"
+                    to="/404"
                     className="hover:text-[#ff3750] text-sm"
                   >
                     404 Page
@@ -222,7 +222,7 @@ const Footer5 = () => {
                 </li>
                 <li className="py-1">
                   <Link
-                    href="gallery.html"
+                    to="/masonry-gallery"
                     className="hover:text-[#ff3750] text-sm"
                   >
                     Gallery Page
@@ -230,7 +230,7 @@ const Footer5 = () => {
                 </li>
                 <li className="py-1">
                   <Link
-                    href="masonry-gallery.html"
+                    to="/masonry-gallery"
                     className="hover:text-[#ff3750] text-sm"
                   >
                     Masonry Gallery
@@ -238,7 +238,7 @@ const Footer5 = () => {
                 </li>
                 <li className="py-1">
                   <Link
-                    href="service.html"
+                    to="/services"
                     className="hover:text-[#ff3750] text-sm"
                   >
                     Services Page
@@ -252,7 +252,7 @@ const Footer5 = () => {
 
           <div className="text-white py-10 items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             <div className="col-span-1">
-              <Link href="index.html">
+              <Link to="/index">
                 <img
                   src={logo}
                   alt="logo"

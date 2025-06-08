@@ -11,25 +11,25 @@ const Announcement4 = () => {
               <ul className="flex items-center gap-7">
                 <li className="hidden text-sm md:block">
                   {" "}
-                  <Link to="/index-10" className="hover:text-slate-300">
+                  <Link to="/" className="hover:text-slate-300">
                     Home
                   </Link>
                 </li>
                 <li className="hidden text-sm md:block">
                   {" "}
-                  <Link to="/index-10" className="hover:text-slate-300">
+                  <Link to="/404" className="hover:text-slate-300">
                     Member
                   </Link>
                 </li>
                 <li className="hidden text-sm md:block">
                   {" "}
-                  <Link to="/index-10" className="hover:text-slate-300">
+                  <Link to="/404" className="hover:text-slate-300">
                     Special Offer
                   </Link>
                 </li>
                 <li className="hidden text-sm md:block">
                   {" "}
-                  <Link to="/index-10" className="hover:text-slate-300">
+                  <Link to="/about" className="hover:text-slate-300">
                     Info
                   </Link>
                 </li>

@@ -24,6 +24,7 @@ const Footer = () => {
                       Latest Post
                     </h5>
                   </div>
+                  
                   <ul className="">
                     <li className="py-1 sm:py-2">
                       <div className="flex items-center">
@@ -48,6 +49,7 @@ const Footer = () => {
                         </div>
                       </div>
                     </li>
+
                     <li className="py-1 sm:py-2">
                       <div className="flex items-center">
                         <div className="flex-shrink-0">
@@ -71,6 +73,7 @@ const Footer = () => {
                         </div>
                       </div>
                     </li>
+
                     <li className="py-1 sm:py-2">
                       <div className="flex items-center">
                         <div className="flex-shrink-0">
@@ -106,6 +109,7 @@ const Footer = () => {
                       Popular Choice
                     </h5>
                   </div>
+
                   <ul className="">
                     <li className="py-1 sm:py-2">
                       <div className="flex items-center overflow-hidden">
@@ -131,6 +135,7 @@ const Footer = () => {
                         </div>
                       </div>
                     </li>
+
                     <li className="py-1 sm:py-2">
                       <div className="flex items-center">
                         <div className="flex-shrink-0">
@@ -154,6 +159,7 @@ const Footer = () => {
                         </div>
                       </div>
                     </li>
+
                     <li className="py-1 sm:py-2">
                       <div className="flex items-center">
                         <div className="flex-shrink-0">

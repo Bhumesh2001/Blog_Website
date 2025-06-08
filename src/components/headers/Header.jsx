@@ -158,6 +158,7 @@ const Header = () => {
 
                     </ul>
                   </li>
+
                   <li>
                     <Link
                       className={`px-0 md:px-2 lg:p-4 py-2 block hover:text-[#062DB9] dark:hover:text-[#478cff]`}
@@ -221,6 +222,7 @@ const Header = () => {
                       </li>
                     </ul>
                   </li>
+
                   <li>
                     <Link
                       className={`px-0 md:px-2 lg:p-4 py-2 block hover:text-[#062DB9] dark:hover:text-[#478cff]`}
@@ -276,6 +278,7 @@ const Header = () => {
                       </li>
                     </ul>
                   </li>
+
                   <li>
                     <Link
                       className={`md:p-[10px] lg:p-4 py-2 block hover:text-[#062DB9] dark:hover:text-[#478cff]`}
@@ -438,6 +441,7 @@ const Header = () => {
                       </div>
                     </div>
                   </li>
+
                   <li>
                     <Link
                       className={`md:p-[10px] lg:p-4 py-2 block hover:text-[#062DB9] dark:hover:text-[#478cff]`}
@@ -446,6 +450,7 @@ const Header = () => {
                       Contact
                     </Link>
                   </li>
+
                   <li>
                     <Link
                       className={`md:p-[10px] lg:p-4 py-2 block hover:text-[#062DB9] dark:hover:text-[#478cff]`}
@@ -673,6 +678,7 @@ const Header = () => {
                     </div>
                   </div>
                 </li>
+
                 <li className="text-md">
                   <Link
                     to="/login"
