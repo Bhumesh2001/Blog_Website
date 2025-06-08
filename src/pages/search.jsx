@@ -5,24 +5,9 @@ import Social from "../common/Social"
 import PostList from "../common/PostList"
 import BlogPosts from "../common/BlogPosts"
 import Seo from "../components/seo"
-import blog1 from "../assets/images/12.jpg"
-import blog2 from "../assets/images/23.jpg"
-import blog3 from "../assets/images/32.jpg"
-import blog4 from "../assets/images/42.jpg"
-import blog5 from "../assets/images/53.jpg"
-import blog6 from "../assets/images/62.jpg"
-import blog7 from "../assets/images/blog-1.jpg"
+import blogPosts from '../common/data/blogData';
 
 const Search = () => {
-  const postData = [
-    { id: 1, image: blog1 },
-    { id: 2, image: blog2 },
-    { id: 3, image: blog3 },
-    { id: 4, image: blog4 },
-    { id: 5, image: blog5 },
-    { id: 6, image: blog6 },
-    { id: 7, image: blog7 },
-  ]
 
   return (
     <React.Fragment>
@@ -59,7 +44,7 @@ const Search = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xs:gap-0 sm:gap-8">
             <div className="col-span-1 md:col-span-2">
-              <BlogPosts postData={postData} />
+              <BlogPosts postData={blogPosts} />
             </div>
             <div className="col-span-1">
               <form className="flex gap-1">
