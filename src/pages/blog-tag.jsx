@@ -36,7 +36,7 @@ const BlogTag = () => {
                 <div className="lg:mb-8" key={post.id}>
                   <div className="block lg:flex gap-4">
                     <div className="lg:w-1/2">
-                      <Link to={`/single-post/${post.id}`}>
+                      <Link to={`/single-post`}>
                         <img
                           className="h-auto max-w-full rounded-lg w-full"
                           src={post.image}
@@ -46,7 +46,7 @@ const BlogTag = () => {
                     </div>
                     <div className="py-4 lg:py-0 lg:w-1/2">
                       <h3 className="text-lg sm:text-xl mb-4 hover:text-[#ff3750] dark:text-white dark:hover:text-[#ff3750]">
-                        <Link to={`/single-post/${post.id}`}>{post.title}</Link>
+                        <Link to={`/single-post`}>{post.title}</Link>
                       </h3>
                       <div className="block lg:flex justify-start gap-4 text-xs sm:text-sm text-gray-500 mb-2 dark:text-gray-400">
                         <span className="me-2 lg:me-0">
