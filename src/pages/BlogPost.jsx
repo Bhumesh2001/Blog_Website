@@ -43,7 +43,7 @@ const BlogPostForm = () => {
             excerpt: formData.content.slice(0, 150) + "...",
         };
 
-        console.log("New Blog Entry:", newBlog);
+        // console.log("New Blog Entry:", newBlog);
 
         // Example: push to local blog list
         blogPosts.push(newBlog);

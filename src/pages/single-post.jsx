@@ -1,9 +1,9 @@
 import React from "react"
+import { Link } from "gatsby"
 import Seo from "../components/seo"
 import Social from "../common/Social"
 import PostList from "../common/PostList"
 import story1 from "../assets/images/stories/01.jpg"
-import { Link } from "gatsby"
 import Layout5 from "../common/layout/Layout5"
 import womenStyleImg from "../assets/images/16.jpg"
 import post1 from "../assets/images/27.jpg"
@@ -40,6 +40,7 @@ const SinglePost = () => {
                       <i className="ri-chat-1-fill"></i> <span>0 comments</span>
                     </Link>
                   </div>
+
                   <hr className="dark:border-slate-800" />
                   <img
                     className="h-auto max-w-full rounded-lg mt-8"
@@ -63,12 +64,14 @@ const SinglePost = () => {
                   <div className="font-normal text-xl mb-3 text-black dark:text-white ">
                     Jason Santa Maria
                   </div>
+
                   <p className="text-gray-400 mb-2 dark:text-gray-300">
                     Reading is not only informed by what’s going on with us at
                     that moment, but also governed by how our eyes and brains
                     work to process information. What you see and what you’re
                     experiencing as you read these words is quite different.
                   </p>
+
                   <p className="text-gray-400 mb-4 dark:text-gray-300">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry’s
@@ -76,6 +79,7 @@ const SinglePost = () => {
                     simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the standard dummy text.
                   </p>
+
                   <p className="text-gray-400 mb-8 dark:text-gray-300">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry’s
@@ -88,6 +92,7 @@ const SinglePost = () => {
                     printing and typesetting industry. Lorem Ipsum has been the
                     standard dummy text.
                   </p>
+
                   <div className="xl:flex lg:flex md:flex sm:flex block gap-4 mb-8 dark:text-gray-300">
                     <div className="w-full">
                       <Link to="#">
@@ -112,6 +117,7 @@ const SinglePost = () => {
                       </p>
                     </div>
                   </div>
+
                   <p className="text-gray-400 mb-4 dark:text-gray-300">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry’s
@@ -181,6 +187,7 @@ const SinglePost = () => {
                       />
                     </Link>
                   </div>
+
                   <div>
                     <h3 className="mb-2">
                       <Link
@@ -215,6 +222,7 @@ const SinglePost = () => {
                         />
                       </Link>
                     </div>
+
                     <div>
                       <h3 className="mb-2">
                         <Link
@@ -249,6 +257,7 @@ const SinglePost = () => {
                       />
                     </Link>
                   </div>
+
                   <div>
                     <h3 className="mb-2">
                       <Link
@@ -316,6 +325,7 @@ const SinglePost = () => {
                 </form>
               </div>
             </div>
+
             <div className="col-span-1">
               <form className="flex gap-1">
                 <input
@@ -342,7 +352,7 @@ const SinglePost = () => {
       </Layout5>
     </React.Fragment>
   )
-}
+};
 
 export const Head = () => <Seo title="Single Post" />
 

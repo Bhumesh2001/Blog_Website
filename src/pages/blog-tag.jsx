@@ -44,6 +44,7 @@ const BlogTag = () => {
                         />
                       </Link>
                     </div>
+
                     <div className="py-4 lg:py-0 lg:w-1/2">
                       <h3 className="text-lg sm:text-xl mb-4 hover:text-[#ff3750] dark:text-white dark:hover:text-[#ff3750]">
                         <Link to={`/single-post`}>{post.title}</Link>
@@ -59,7 +60,7 @@ const BlogTag = () => {
                           <i className="ri-chat-1-fill"></i> {post.comments} comments
                         </span>
                       </div>
-                      <p className="text-gray-400 text-sm sm:text-base mb-2 dark:text-gray-300">
+                      <p className="text-gray-400 text-sm sm:text-base mb-2 dark:text-gray-300 line-clamp-3">
                         {post.excerpt}
                       </p>
                     </div>
