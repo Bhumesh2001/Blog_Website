@@ -199,7 +199,7 @@ const Footer5 = () => {
               </ul>
             </div>
 
-            <div>
+            {/* <div>
               <h2 className="text-xl sm:text-2xl font-semibold mb-2 md:mb-6 mt-6 md:mt-0">
                 Links
               </h2>
@@ -242,6 +242,39 @@ const Footer5 = () => {
                     className="hover:text-[#ff3750] text-sm"
                   >
                     Services Page
+                  </Link>
+                </li>
+              </ul>
+            </div> */}
+
+            <div>
+              <h2 className="text-xl sm:text-2xl font-semibold mb-2 md:mb-6 mt-6 md:mt-0">
+                Links
+              </h2>
+              <ul>
+                <li className="py-1">
+                  <Link to="/" className="hover:text-[#ff3750] text-sm">
+                    Home
+                  </Link>
+                </li>
+                <li className="py-1">
+                  <Link to="/blog-tag" className="hover:text-[#ff3750] text-sm">
+                    Blog
+                  </Link>
+                </li>
+                <li className="py-1">
+                  <Link to="/post-format-standard" className="hover:text-[#ff3750] text-sm">
+                    Category
+                  </Link>
+                </li>
+                <li className="py-1">
+                  <Link to="/about" className="hover:text-[#ff3750] text-sm">
+                    About
+                  </Link>
+                </li>
+                <li className="py-1">
+                  <Link to="/contact" className="hover:text-[#ff3750] text-sm">
+                    Contact
                   </Link>
                 </li>
               </ul>
@@ -304,7 +337,7 @@ const Footer5 = () => {
         </div>
 
         <hr className="opacity-20" />
-        
+
         <div className="container mx-auto px-4">
           <div className="block sm:flex justify-between text-white items-center">
             <div>

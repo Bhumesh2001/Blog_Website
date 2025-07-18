@@ -60,7 +60,7 @@ const Header = () => {
         bodyClass={"dark:bg-gray-900 text-base font-body bg-[#F5F5F5] header-2"}
       />
       <ThemeCustomizer />
-      <Announcement />
+      {/* <Announcement /> */}
 
       {/* Header */}
       <header className="mt-0 bg-white shadow md:mt-8 md:shadow-none md:bg-transparent dark:bg-slate-800 dark:md:bg-transparent">
@@ -85,7 +85,7 @@ const Header = () => {
             </div>
 
             {/* Menu start */}
-            <nav className="order-1 md:order-2">
+            {/* <nav className="order-1 md:order-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 id="menu-button"
@@ -607,10 +607,79 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
+            </nav> */}
+
+            <nav className="order-1 md:order-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                id="menu-button"
+                className="block w-6 h-6 cursor-pointer md:hidden dark:text-white"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                onClick={() => setMenuOpen(!menuOpen)}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+
+              <div
+                ref={menuRef}
+                className={`${menuOpen ? "block" : "hidden"
+                  } w-full md:flex lg:items-center absolute md:relative bg-white left-0 right-0 p-3 z-50 shadow md:shadow-none md:p-0 md:bg-transparent dark:bg-slate-800 dark:border-slate-700`}
+                id="menu"
+              >
+                <ul className="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0 dark:text-slate-200 flex-wrap">
+                  <li>
+                    <Link
+                      className="px-0 md:px-2 lg:p-4 py-2 block hover:text-[#062DB9] dark:hover:text-[#478cff]"
+                      to="/"
+                    >
+                      Home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="px-0 md:px-2 lg:p-4 py-2 block hover:text-[#062DB9] dark:hover:text-[#478cff]"
+                      to="/blog-tag"
+                    >
+                      Blog
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="px-0 md:px-2 lg:p-4 py-2 block hover:text-[#062DB9] dark:hover:text-[#478cff]"
+                      to="/post-format-standard"
+                    >
+                      Category
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="px-0 md:px-2 lg:p-4 py-2 block hover:text-[#062DB9] dark:hover:text-[#478cff]"
+                      to="/about"
+                    >
+                      About
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="px-0 md:px-2 lg:p-4 py-2 block hover:text-[#062DB9] dark:hover:text-[#478cff]"
+                      to="/contact"
+                    >
+                      Contact
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </nav>
 
             {/* Search */}
-            <div className="order-3">
+            {/* <div className="order-3">
               <ul className="flex space-x-4 md:space-x-4 rtl:space-x-reverse">
                 <li
                   x-data="{ open: false, get isOpen() { return this.open }, toggle() { this.open = ! this.open }, }"
@@ -689,7 +758,7 @@ const Header = () => {
                   </Link>{" "}
                 </li>
               </ul>
-            </div>
+            </div> */}
           </nav>
         </div>
       </header>

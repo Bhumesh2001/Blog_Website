@@ -225,6 +225,7 @@ const Section3 = () => {
                   </div>
                 )}
               </div>
+
               <div className="col-span-4 lg:col-span-1" data-aos="fade-left">
                 <div className="grid grid-cols-2 gap-0 sm:gap-6 md:gap-8 lg:gap-0">
                   <div className="col-span-2 p-5 mt-8 bg-white md:col-span-1 lg:col-span-2 dark:bg-gray-800/70 rounded-xl lg:mt-0">
@@ -251,6 +252,7 @@ const Section3 = () => {
                       </div>
                     ))}
                   </div>
+                  
                   <div className="col-span-2 p-5 mt-8 bg-white md:col-span-1 lg:col-span-2 dark:bg-gray-800/70 rounded-xl">
                     <div className="w-full max-w-md">
                       <div className="flex items-center justify-between mb-4">

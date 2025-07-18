@@ -54,6 +54,7 @@ const PostFormatStandard = () => {
                 </div>
               </div>
             </div>
+            
             <div className="relative">
               <div className="relative">
                 <Link to="/single-post">

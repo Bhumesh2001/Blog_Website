@@ -13,7 +13,8 @@ const Section2 = () => {
     <React.Fragment>
       <section className="mt-8">
         <div className="container px-4 mx-auto">
-          <div className="grid grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+
             <div className="col-span-5 md:col-span-3" data-aos="flip-left">
               <Swiper
                 slidesPerView={1}
@@ -88,7 +89,8 @@ const Section2 = () => {
                 <div className="swiper-button-prev"></div>
               </Swiper>
             </div>
-            <div className="col-span-5 md:col-span-2" data-aos="flip-right">
+
+            {/* <div className="col-span-5 md:col-span-2" data-aos="flip-right">
               <div className="grid grid-cols-2 gap-6">
                 <div className="col-span-2">
                   <figure className="relative cursor-pointer">
@@ -109,6 +111,74 @@ const Section2 = () => {
                     </figcaption>
                   </figure>
                 </div>
+
+                <div
+                  className="col-span-2"
+                  data-aos="fade-left"
+                >
+                  <div className="p-5 bg-white dark:bg-gray-800/70 rounded-xl">
+                    <div className="mb-4">
+                      <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
+                        Join With Us
+                      </h5>
+                    </div>
+                    <ul>
+                      <li>
+                        <Link to="#" target="_blank">
+                          <div className="bg-[#062DB9] hover:bg-[#052494] text-white text-left rounded-full py-3.5 px-7 mb-3">
+                            <div className="flex items-center justify-between">
+                              <div>
+                                <i className="text-lg ri-facebook-circle-fill"></i>
+                                <span className="">Facebook</span>
+                              </div>
+                              <div>42.2k</div>
+                            </div>
+                          </div>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="#" target="_blank">
+                          <div className="bg-[#20A1EB] hover:bg-[#128cd3] text-white text-left rounded-full py-3.5 px-7 mb-3">
+                            <div className="flex items-center justify-between">
+                              <div>
+                                <i className="ri-twitter-x-line"></i>
+                                <span className="">Twitter</span>
+                              </div>
+                              <div>10.1m</div>
+                            </div>
+                          </div>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="#" target="_blank">
+                          <div className="bg-[#830899] hover:bg-[#680679] text-white text-left rounded-full py-3.5 px-7 mb-3">
+                            <div className="flex items-center justify-between">
+                              <div>
+                                <i className="ri-twitch-line"></i>
+                                <span className="">Twitch</span>
+                              </div>
+                              <div>22.9k</div>
+                            </div>
+                          </div>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="#" target="_blank">
+                          <div className="bg-gradient-to-r from-[#863FA6] from-10% via-[#E12C61] via-50% to-[#F46F46] to-90% hover:from-[#683181] hover:from-10% hover:via-[#c91d50] hover:via-50% hover:to-[#f25626] hover:to-90% text-white text-left rounded-full py-3.5 px-7 mb-0">
+                            <div className="flex items-center justify-between">
+                              <div>
+                                <i className="ri-instagram-line"></i>
+                                <span className="">Instagram</span>
+                              </div>
+                              <div>50.2k</div>
+                            </div>
+                          </div>
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
                 <div className="col-span-2 sm:col-span-1">
                   <figure className="relative cursor-pointer">
                     <Link to="/single-post">
@@ -128,6 +198,7 @@ const Section2 = () => {
                     </figcaption>
                   </figure>
                 </div>
+
                 <div className="col-span-2 sm:col-span-1">
                   <figure className="relative cursor-pointer">
                     <Link to="/single-post">
@@ -146,6 +217,86 @@ const Section2 = () => {
                       </div>
                     </figcaption>
                   </figure>
+                </div>
+
+                <div className="col-span-2">
+                  <div className="border-b dark:border-gray-700">
+                    <h3 className="uppercase font-bold tracking-wide border-b-2 inline-block border-[#ff3750] pb-4 dark:text-white">
+                      Newsletter
+                    </h3>
+                  </div>
+                  <div className="mt-4">
+                    <input
+                      type="email"
+                      className="form-input px-4 py-3 rounded-lg w-full border dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                      placeholder="Enter email"
+                    />
+                    <button className="uppercase tracking-wide btn rounded-lg px-6 py-3 bg-[#ff3750] hover:bg-gray-700 mt-5 w-full pt-[14px]">
+                      subscribe
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div> */}
+
+            <div className="col-span-5 md:col-span-2" data-aos="flip-right">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {/* Social Media Join Section */}
+                <div className="col-span-1 sm:col-span-2" data-aos="fade-left">
+                  <div className="p-4 bg-white dark:bg-gray-800/70 rounded-xl">
+                    <div className="mb-3">
+                      <h5 className="text-lg font-semibold text-gray-900 dark:text-white">
+                        Join With Us
+                      </h5>
+                    </div>
+                    <ul>
+                      {[
+                        { name: "Facebook", icon: "ri-facebook-circle-fill", color: "bg-[#062DB9]", count: "42.2k" },
+                        { name: "Twitter", icon: "ri-twitter-x-line", color: "bg-[#20A1EB]", count: "10.1m" },
+                        { name: "Twitch", icon: "ri-twitch-line", color: "bg-[#830899]", count: "22.9k" },
+                        {
+                          name: "Instagram",
+                          icon: "ri-instagram-line",
+                          color:
+                            "bg-gradient-to-r from-[#863FA6] via-[#E12C61] to-[#F46F46] hover:from-[#683181] hover:via-[#c91d50] hover:to-[#f25626]",
+                          count: "50.2k",
+                        },
+                      ].map(({ name, icon, color, count }) => (
+                        <li key={name}>
+                          <Link to="#" target="_blank">
+                            <div className={`${color} text-white rounded-full py-2 px-5 mb-2 hover:opacity-90 text-sm`}>
+                              <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-2">
+                                  <i className={`text-base ${icon}`}></i>
+                                  <span>{name}</span>
+                                </div>
+                                <div className="text-xs">{count}</div>
+                              </div>
+                            </div>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+
+                {/* Newsletter Section */}
+                <div className="col-span-1 sm:col-span-2">
+                  <div className="border-b dark:border-gray-700">
+                    <h3 className="uppercase font-semibold tracking-wide border-b-2 inline-block border-[#ff3750] pb-2 text-sm dark:text-white">
+                      Newsletter
+                    </h3>
+                  </div>
+                  <div className="mt-3">
+                    <input
+                      type="email"
+                      className="form-input px-3 py-2 rounded-md w-full border text-sm dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                      placeholder="Enter email"
+                    />
+                    <button className="uppercase tracking-wide rounded-md px-4 py-2 bg-[#ff3750] hover:bg-gray-700 mt-4 w-full text-sm text-white">
+                      Subscribe
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

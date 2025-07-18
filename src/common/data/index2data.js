@@ -171,6 +171,10 @@ const fastfood = [
     id: 3,
     pic: layout20,
   },
+  {
+    id: 4,
+    pic: layout20,
+  },
 ]
 
 const latestpost = [

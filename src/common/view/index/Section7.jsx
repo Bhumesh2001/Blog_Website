@@ -12,10 +12,11 @@ const Section7 = () => {
               Fast Foods
             </h5>
           </div>
-          <div className="grid grid-cols-7 gap-8">
+
+          {/* <div className="grid grid-cols-7 gap-8">
             <div
               className="col-span-7 md:col-span-4 lg:col-span-5"
-              data-aos="fade-right"
+              // data-aos="fade-right"
             >
               <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {fastfood &&
@@ -45,6 +46,7 @@ const Section7 = () => {
                   ))}
               </div>
             </div>
+
             <div
               className="col-span-7 md:col-span-3 lg:col-span-2"
               data-aos="fade-left"
@@ -110,6 +112,35 @@ const Section7 = () => {
                   </li>
                 </ul>
               </div>
+            </div>
+          </div> */}
+
+          <div className="w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+              {fastfood &&
+                fastfood.map(item => (
+                  <figure className="relative cursor-pointer" key={item.id}>
+                    <Link to="/single-post">
+                      <img
+                        className="w-full h-60 object-cover transition duration-300 ease-in-out rounded-2xl hover:brightness-50"
+                        src={item.pic}
+                        alt="post"
+                      />
+                    </Link>
+                    <figcaption className="absolute bottom-6 left-4 right-4 text-white">
+                      <div className="text-sm">Food</div>
+                      <div className="text-md leading-normal capitalize font-medium hover:text-[#062db9] dark:hover:text-[#478cff]">
+                        <Link to="/single-post">
+                          Spicy Crispy Our Restaurant Food Recipe Fast Food
+                        </Link>
+                      </div>
+                      <div className="text-[11px] uppercase text-gray-200">
+                        <span className="me-2">John Doe</span>
+                        <span>7 Months Ago</span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                ))}
             </div>
           </div>
         </div>
